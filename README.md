@@ -1,0 +1,2 @@
+# sync
+This is an agnostic javascript library that synchronizes shared data/state throughout your app. It is tiny, unopinionated and can interface with and/or replace Redux. It can easily be extended to coordinate with an API or something like firebase or pubnub. It is optimized for high performance and low foot print and has zero dependencies.  You can use sync with or without React, Redux, or any other framework.
