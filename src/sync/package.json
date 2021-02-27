@@ -1,8 +1,8 @@
 {
-  "name": "sync",
-  "version": "1.0.0",
+  "name": "ez-sync-js",
+  "version": "1.0.12",
   "description": "This is an agnostic javascript library that synchronizes shared data/state throughout your app. It is tiny, unopinionated and can interface with and/or replace Redux. It can easily be extended to coordinate with an API or something like firebase or pubnub. It is optimized for high performance and low foot print and has zero dependencies.",
-  "main": "Sync.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

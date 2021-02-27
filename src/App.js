@@ -1,4 +1,4 @@
-import useSync from "./sync/useSync";
+import {useSync} from "ez-sync-js";
 import { useState } from "react";
 
 const Cells = (props = {}) => {
@@ -63,7 +63,7 @@ function App() {
         Type something in each box, any box, and the matching inputs will be
         synchronized
       </div>
-      <Cells cells={cells} />
+      <Cells cells={cells} initial='change me'/>
       <button onClick={onMore}>more</button>
       {cells.length > 2 && <div> {cells.length * 3} synchronized inputs </div>}
     </div>
