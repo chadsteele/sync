@@ -19,3 +19,7 @@ usage:
 ```
 
 ![diagram](./public/img/useSync.jpg)
+
+#NPM
+It's called ez-sync-js
+[https://www.npmjs.com/package/ez-sync-js](https://www.npmjs.com/package/ez-sync-js)
